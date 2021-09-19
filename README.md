@@ -22,6 +22,8 @@ indicating if the pedestrian was alone, severity of victim’s injury).
 ### Code and Results
 The **"Summary"** file briefly summarises the main findings of the study.
 
+The **"project_preprocessing_data"** file shows the code used to prepare data for analysis (clean, handle missing values, aggregate the highly fractioned categorical variables).
+
 The **"project_EDA"** file shows the code and results of the exploratory data analysis.
 
 The **"Models"** file shows the code and results for Random Forest, Support Vector Machines, K-Nearest Neighbours and XGBoost models

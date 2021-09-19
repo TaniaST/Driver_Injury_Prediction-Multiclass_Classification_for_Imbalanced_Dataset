@@ -5,8 +5,13 @@ To evaluate the models, we choose macro-averaged F-1 score, precision, and recal
 the imbalance between classes when comparing the predictive performance. 
 
 The conclusions can be summarised, as follows:
+
 • Support Vector Machines give better results if data is normalised or standardised. Random Forest, XGBoost and K-Nearest Neighbours algorithms, on the contrary, do not show considerable changes in performance depending on whether data have been scaled or not.
+
 • CNN model created using transfer learning technique performs significantly better than the one directly built for four-class outcome.
+
 • Random forest and XGBoost models outperform the other algorithms, giving the highest overall macro-averaged F-1 score at 0.37 for both models. XGBoost has higher precision at 0.44 vs. 0.39 for Random Forest but lower recall at 0.37 vs. 0.47. Matthews Correlation Coefficient is also the highest for these two models with 0.23 result for XGBoost and 0.22 for Random Forest.
+
 • Despite an almost equal overall performance, Random Forest and XGBoost behave differently in predicting minority classes. Random Forest gives the best F-1 score overall for the most underrepresented class “killed” at 0.13, whereas XGBoost model only achieves 0.03.
+
 • Overall performance of the models is relatively low, due to the lack of the most impactful features and high imbalance present in the dataset.
